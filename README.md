@@ -10,14 +10,14 @@ The train_raw.json, val_raw.json and test_raw.json files consist question, answe
 
 ```python
 {
-    "id":"id"
-    "background_id":"background_id"
-    "src":"question"
-    "tgt":"gold-standard answer"
-    "material":["text scenario",...]
-    "image":[["image title","image annotation by template"],...]
-	"image_text":[["image title","image annotation by natural language"],...]
-	"object2Geonames":{"value of entity slot in image annotation by template":["geonameid","name_zh","latitude","longitude","country","timezone","summer precipitation","winter precipitation","climate type","climate zone"],...}
+    "id":"id",
+    "background_id":"background_id",
+    "src":"question",
+    "tgt":"gold-standard answer",
+    "material":["text scenario",...],
+    "image":[["image title","image annotation by template"],...],
+    "image_text":[["image title","image annotation by natural language"],...],
+    "object2Geonames":{"value of entity slot in image annotation by template":["geonameid","name_zh","latitude","longitude","country","timezone","summer precipitation","winter precipitation","climate type","climate zone"],...}
 }
 ```
 
